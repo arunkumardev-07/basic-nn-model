@@ -38,7 +38,7 @@ auth.authenticate_user()
 creds,_ = default()
 gc = gspread.authorize(creds)
 
-worksheet = gc.open('DL').sheet1
+worksheet = gc.open('student_data').sheet1
 data = worksheet.get_all_values()
 \
 dataset1 = pd.DataFrame(data[1:], columns=data[0])
@@ -85,21 +85,21 @@ Ai_Brain.predict(x_n1_1)
 ```
 ## Dataset Information
 
-![dl](https://github.com/user-attachments/assets/a2667578-a556-4671-b2ec-be09d7359aeb)
+![Screenshot 2024-11-15 225415](https://github.com/user-attachments/assets/d1a9ad98-2291-48c0-951a-82dd0e18f673)
 
 ## OUTPUT
 
 ### Training Loss Vs Iteration Plot
-![dl2](https://github.com/user-attachments/assets/b305cd57-4432-4a2b-9a1c-e8d95d041f14)
 
+![Screenshot 2024-11-15 225326](https://github.com/user-attachments/assets/c04e6fc1-8339-4606-8950-21e30dbb5e07)
 
 ### Test Data Root Mean Squared Error
 
-![dl3](https://github.com/user-attachments/assets/485858c2-1560-46d9-9ab1-cf5d49fcc91b)
+![Screenshot 2024-11-15 225150](https://github.com/user-attachments/assets/1bdc461d-ea31-4722-bf0a-d2ac14625676)
+
 
 ### New Sample Data Prediction
-![dl4](https://github.com/user-attachments/assets/8c34ac89-13ae-4f22-b1f0-be36e93a6d59)
-
+![Screenshot 2024-11-15 225055](https://github.com/user-attachments/assets/c085a0e1-b73d-437d-b1f7-9fddb2adef41)
 
 ## RESULT
-Thus the program executed successfully
+Thus the program executed successfully.
