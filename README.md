@@ -21,8 +21,8 @@ Plot the performance plot
 ### STEP 7:
 Evaluate the model with the testing data.
 ## PROGRAM
-### Name:Yuvabharathi.B
-### Register Number:212222230181
+### Name:Arunkumar.P
+### Register Number:212222040016
 ```python
 import pandas as pd
 from sklearn.model_selection import train_test_split
